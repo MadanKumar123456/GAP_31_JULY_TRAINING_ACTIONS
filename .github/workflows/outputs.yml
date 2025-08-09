@@ -1,7 +1,7 @@
 name: Outputs
 
 on:
- working_dispatch
+ workflow_dispatch
 jobs:
  gen-msg:
   runs-on: ubuntu-latest
