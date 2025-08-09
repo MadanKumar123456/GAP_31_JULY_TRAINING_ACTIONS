@@ -13,7 +13,7 @@ jobs:
   - name: Print
     run: |
      echo ' ${{env.MY_VAR}}'
-     echo ' ${{vars.MY_VAR}}'
+     echo ' ${{vars.VAR_NEW}}'
     env:
      MY_VAR: steps
   
