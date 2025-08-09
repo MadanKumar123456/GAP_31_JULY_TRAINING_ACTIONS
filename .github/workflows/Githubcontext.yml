@@ -13,7 +13,7 @@ jobs:
       echo 'Repo ID ${{github.repository_id}}'
       echo 'Repo URL ${{github.repositoryUrl}}'
       echo 'Repo token ${{github.token}}'
-      echo 'Workflow name ${{github_workflow}}'
+      echo 'Workflow name ${{github.workflow}}'
       echo 'Actor ${{github.actor}}'
       echo 'Ref details ${{github.ref}}'
       echo 'Trigger event ${{github.event_name}}'
